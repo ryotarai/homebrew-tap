@@ -1,28 +1,28 @@
 class Oriel < Formula
   desc "Rich web UI for Claude Code"
   homepage "https://github.com/ryotarai/oriel"
-  version "0.0.10"
+  version "0.0.12"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/ryotarai/oriel/releases/download/v#{version}/oriel-darwin-amd64"
-      sha256 "483d56541a21842e5416676d38abc10913fa73eb9568b6ca78fdfbd05f1571cf"
+      sha256 "bb5d1d51bc9aa0852eca629a28d9d4d4993ca4f579723381e6c8109eae0ba06d"
     end
     on_arm do
       url "https://github.com/ryotarai/oriel/releases/download/v#{version}/oriel-darwin-arm64"
-      sha256 "59d8895ee2f9c5749976f26a951a67a7062d069761e9a8f88b450356b07b1ad7"
+      sha256 "3167e798b343af40bb1c459d27b846e9772d3432da5cdc438e8e7c22631d5b21"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ryotarai/oriel/releases/download/v#{version}/oriel-linux-amd64"
-      sha256 "1bed7679901af48a1e1de996f431c67f6c74fb8d48c36d4f9460ce6d0a39755d"
+      sha256 "a79136937ae450523b49da2798c48326278b327212ab879353202fb615bd98c6"
     end
     on_arm do
       url "https://github.com/ryotarai/oriel/releases/download/v#{version}/oriel-linux-arm64"
-      sha256 "d5c7b777c71db43b4b703afac65cccf121ba77e7a5ae42d8dbf4191bacfbe60c"
+      sha256 "bfb0836d4df5fee89e7d5c13464747d9cb54dece367209965e0d77269579e493"
     end
   end
 
